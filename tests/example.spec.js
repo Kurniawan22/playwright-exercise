@@ -24,7 +24,8 @@ test('cara traditional', async ({ page }) => {
   
   //cara click button selector
   await page.locator('#login-button').click();
-  console.log('test aja');
+});
 
+test('cara login pakai page object models', async ({ page }) => {
 
 });
